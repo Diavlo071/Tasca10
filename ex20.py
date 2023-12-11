@@ -15,9 +15,14 @@ def superposicio(llista1,llista2):
         print(False)
 
 #Programa Principal
-
 l = llegir_llista()
 m = llegir_llista()
 
-superposicio(l,m)
+#superposicio(l,m)
 
+c = superposicio(l,m)
+
+if c == 0:
+    print("Les dues llistes no tenen cap element en comú.")
+else:
+    print("Les llistes tenen ", c ," elements en comú")
