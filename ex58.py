@@ -1,3 +1,4 @@
+#Aqui miram si es par o no
 def es_primo(num):
 	if num < 2:
 		return False

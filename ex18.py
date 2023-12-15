@@ -1,3 +1,4 @@
+#La funcio inverteix la cadena de caracters
 def invertir(cadena):
     return cadena[::-1]
 

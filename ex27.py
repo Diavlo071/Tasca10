@@ -1,3 +1,4 @@
+#Se encarega de dir cuants nombre de caracters te i cuantas majuscules te
 def evaluar_majuscules(s):
 	nummajuscules = sum(c.isupper() for c in s)
 	numnumeros	= sum(c.isdigit() for c in s)

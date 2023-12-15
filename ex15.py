@@ -1,3 +1,5 @@
+# Lo que fa aquesta funcio es retornar les lletras pero contan els caracters
+
 def Longitud(cadena):
 
 	return len(cadena)

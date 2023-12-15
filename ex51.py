@@ -1,3 +1,4 @@
+#Aqui llegeix una llista de paraules
 def llegir_llista_paraules():
     b=[]
     a="a"
@@ -7,6 +8,7 @@ def llegir_llista_paraules():
               b.append(a)
               b.sort()
               return b
+#Aqui fa un index de las paraules de la llista
 def index_paraula(llista,paraula):
     return [i for i,e in enumerate(llista) if paraula == e]
 

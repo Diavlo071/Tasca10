@@ -1,7 +1,7 @@
 from datetime import date
 from datetime import datetime
 
-
+#Aqui li deim que agafi uns valors i que despres que el calculi amb datatime
 def GetNames(aactual):
     a = []
     print("Introdueixi els nom i la data de naixament de les 4 persones: ")

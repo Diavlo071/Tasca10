@@ -1,3 +1,5 @@
+#Te diu si la paraula al reves i normal es palindrom o no
+
 def es_palindrom():
     x = input("Introdueix la paraula que vols que comprovi si es palindrom  o no: ")
 

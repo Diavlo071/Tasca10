@@ -1,3 +1,5 @@
+# Retorna el nombre mes gran de a,b, i c,
+
 def gran_de_tres(a,b,c):
 
     if a > b > c:    

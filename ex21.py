@@ -1,3 +1,5 @@
+#Repeteix el nombre de vegades del nombre i el suma a el caracter
+
 def crear_repetits(a,b):
     c = ''
     for i in range(a):

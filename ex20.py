@@ -1,3 +1,4 @@
+#Llelgim la llista
 def llegir_llista():
     a='a'
     llista=[]
@@ -8,6 +9,7 @@ def llegir_llista():
         else:
             return llista
 
+#Aqui mira les dues llistes i les si tenen un element en comu surt true i si no false
 def superposicio(llista1,llista2):
     if llista1 == llista2:
         print(True)

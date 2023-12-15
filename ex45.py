@@ -1,3 +1,4 @@
+#Llegeix una llista
 def llegir_llista():
 	a=[]
 	c="a"
@@ -6,6 +7,7 @@ def llegir_llista():
 		if c!=".":
 			a.append(c)
 			return a
+#Elimina el cap i la cua
 def eliminar_capicua(a):
 	b=[]
 	if len(a)>2:

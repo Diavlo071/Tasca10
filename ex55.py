@@ -1,3 +1,4 @@
+#Amb el nombre que fiquis dibuxara una *
 def dibuixar(a):
 	l=[]
 	for j in range(a+1):

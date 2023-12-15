@@ -1,5 +1,7 @@
+#Aqui demanam que intrudueixi uns valor
 x = input("Introdueixi la primera paraula: ")
 y = input("Introdueixi la segona paraula: ")
+#Aqui li deim que si les paraules tenen tal valor que retorni lo que haya als prints
 if x[-3:]==y[-3:]:
 	print("Les paraules {} i {} rimen les darreres tres lletres {}".format(x, y, x[-3:]))
 elif x[-2:]==y[-2:]:

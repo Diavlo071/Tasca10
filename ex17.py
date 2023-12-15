@@ -1,3 +1,5 @@
+#Aqui llegim la llista
+
 def llegir_llista():
     a='a'
     llista=[]
@@ -8,13 +10,14 @@ def llegir_llista():
         else:
             return llista
 
+#Aquesta serveix per sumar les llistes
 def sumar(llista):
     suma = 0
     for numero in llista:
         suma += numero
     return suma
     
-    
+#Aquesta serveix per Multiplicar les llistes
 def multiplicar(llista):
     Multiplicacio = 1
     for numero in llista:

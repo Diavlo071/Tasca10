@@ -1,3 +1,4 @@
+#Se encarga de filtrar les paraules amb el numero que li pasas
 def filtrar_paraules(a, num):
         b = list()
         i = 0
@@ -7,6 +8,7 @@ def filtrar_paraules(a, num):
                 b.append(e)
         return b
 
+#Programa Prinicipal
 llista = ["hola", "NO", "Ramis", "IES", "pepe", "Ironman"]
 a = input("Indicar la longitud de les paraules que vols filtrar: ")
 c = filtrar_paraules(llista,int(a))

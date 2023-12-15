@@ -1,3 +1,5 @@
+#Retorna el major de el nombre que agis ficat
+
 def retorna_major():
 
     if a > b:

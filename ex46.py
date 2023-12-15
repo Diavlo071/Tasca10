@@ -1,3 +1,4 @@
+#Aqui compara si esta ordenada la llista
 def  esta_ordenada(a):
 	b = a.copy()
 	c = a.copy()
@@ -9,6 +10,7 @@ def  esta_ordenada(a):
 		print("La llista {} està ordenada descendentment {}".format(a, c))
 	else:
 		print("La llista {} no està ordenada {}".format(a, b))
+#Llegeix la llista
 def llegir_llista():
 	a=[]
 	c="a"

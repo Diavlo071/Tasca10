@@ -1,3 +1,4 @@
+#Compara i suma si el nombre tal es unaltra cosa
 def sumar(a,b):
 	suma=0
 	if a>b:

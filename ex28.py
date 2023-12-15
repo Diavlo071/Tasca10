@@ -1,6 +1,7 @@
+#Transforma binari a Decimal
 def bintodec (bin):
     return int(bin,2)
-
+#Aqui empra la llista per poder transformalos tots
 def llbintodec(llbin):
     lldec = []
     for i in llbin:

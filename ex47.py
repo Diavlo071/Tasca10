@@ -1,3 +1,4 @@
+#Aqui compara si te elements duplicats
 def hi_ha_duplicats(a):
 	seen = set()    
 	dupes = [x for x in a if x in seen or seen.add(x)]  	 
@@ -5,6 +6,7 @@ def hi_ha_duplicats(a):
 		print("La llista {} té elements duplicats {}".format(a,dupes))
 	else:
 		print("La llista {} no té elements duplicats {}".format(a,dupes))
+#Llegeix la llista
 def llegir_llista():
 	a=[]
 	c="a"

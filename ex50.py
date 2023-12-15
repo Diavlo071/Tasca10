@@ -1,3 +1,4 @@
+#Crea una Llista per ficarlo a un Fixer
 def crear_llista_fitxer(fitxer):
     with open(fitxer, 'r') as f:
         llista = f.readlines()

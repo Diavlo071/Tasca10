@@ -1,3 +1,4 @@
+#Aqui diu que Si l'any es traspasa o no es transpasa
 def any_traspas(any):
 	if (any % 4==0) and (any%100>0 or any%400==0):
 		print("L'any {} és de traspàs".format(any))

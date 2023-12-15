@@ -1,3 +1,4 @@
+#Ordena els noms de forma alfabetica
 def noms_que_comencen_per(llista,lletra):
 	comptador = 0
 	llnom= []
@@ -6,7 +7,7 @@ def noms_que_comencen_per(llista,lletra):
 			llnom.append(e)
 			comptador += 1
 	print("El número de noms que comencen per el caràcter {} són: {} i són: {}".format(lletra, comptador, llnom))
-
+#Lleleig tots els noms que vulis i el pots aturar amb -1
 def llegir_noms():
 	i=0
 	l=[]

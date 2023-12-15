@@ -1,3 +1,4 @@
+#Fa una llista del 10 al 1 al reves
 b=[]
 for i in range(10,0,-1):
     b.append(i)

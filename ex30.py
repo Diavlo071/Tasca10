@@ -1,9 +1,10 @@
+#Aqui li deim que mostri el major nombre que estigui dins la tupla
 def mostrar_majors_que(t,nreferencia):
 	print("Tots els números majors de {} són: ".format(nreferencia))
 	for e in t:
 		if e>nreferencia:
 			print("{} ".format(e))
-
+#Llegeix una tupla
 def llegir_tupla():
 	a = []
 	i=0

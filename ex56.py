@@ -1,7 +1,9 @@
+#Aqui mira els elements parells
 def elements_parells(a):
 	for i,e in enumerate(a):
 		if i%2==1:
 			print(e)
+#Aqui llegim la llista
 def llegir_llista():
 	l=[]
 	a = 'a'

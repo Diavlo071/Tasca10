@@ -1,3 +1,4 @@
+#Mostra els nombres un despues d'un altre 
 def mostrar(i):
 	b=[]
 	for e in range(i,0,-1):
